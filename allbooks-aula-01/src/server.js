@@ -18,6 +18,10 @@ server.use(/^(?!\/(public|livros|autores|categorias)).*$/, authenticationMiddlew
 server.use(router) //rotas na prota 3000
 
 server.listen(8000, () => {
+<<<<<<< HEAD
   console.log ("Boas vindas a API dp allbox")
   console.log("API disponível atraves url em http://localhost:8000")
+=======
+  console.log("Acesse API em http://localhost:8000")
+>>>>>>> 63fb2ef3827626e5cf54a7084b8ab05be41edc51
 })
